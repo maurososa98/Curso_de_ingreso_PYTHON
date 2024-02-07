@@ -27,7 +27,8 @@ class App(customtkinter.CTk):
 
 
     def btn_mostrar_on_click(self):
-        pass
+        dato_ingresado = prompt("entrada_salida_02", "Dato:")
+        alert("entrada_salida_02", dato_ingresado)
         
         
     
